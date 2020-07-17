@@ -1,6 +1,6 @@
-import { contact } from './contact.js';
+import { Contact } from './contact.js';
 
-let contact1 = new contact("nathan", "bonnet", "nathbonnet@hotmail.fr");
-
-
-console.log(contact.displayInfo());
+export let contact1 = new Contact("n", "bonnet", "nathbonnet@hotmail.fr");
+export let contact2 = new Contact("se", "bonnet", "sebbonnet@hotmail.fr");
+contact1.displayInfo();
+contact2.displayInfo();
